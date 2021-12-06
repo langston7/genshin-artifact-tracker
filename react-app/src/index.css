@@ -1,0 +1,25 @@
+/* TODO Add site wide styles */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+  margin: 0 auto;
+  font-family:'Lato', sans-serif;
+  /*background-image: url(https://www.gensh.in/wallpaper/genshin/genshin_06_4K.jpg);*/
+  background-size: 100vw;
+  background-color:rgb(53, 53, 53);
+  color: rgb(221, 221, 221);
+}
+
+.body-inner{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.hidden{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+}

@@ -1,0 +1,22 @@
+
+.nav-container{
+  margin: auto;
+  border-bottom: 2px solid grey;
+  background-color: rgb(80, 80, 80);
+  height: 20px;
+  padding: 20px;
+}
+
+.nav-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.sidebar-container{
+  display:flex;
+  flex-direction: column;
+  position:fixed;
+  background-color: rgba(128, 128, 128, 0.342);
+}
