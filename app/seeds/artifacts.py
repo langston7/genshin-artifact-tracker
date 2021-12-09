@@ -99,21 +99,21 @@ def seed_artifacts():
       slot='Circlet of Logos',
     )
 
-    db.session.add(witchs_heart_flames)
-    db.session.add(witchs_end_time)
-    db.session.add(witchs_ever_burning_plume)
     db.session.add(witchs_flower_of_blaze)
+    db.session.add(witchs_ever_burning_plume)
+    db.session.add(witchs_end_time)
+    db.session.add(witchs_heart_flames)
     db.session.add(witchs_scorching_hat)
-    db.session.add(lavawalkers_epiphany)
     db.session.add(lavawalkers_resolution)
     db.session.add(lavawalkers_salvation)
     db.session.add(lavawalkers_torment)
+    db.session.add(lavawalkers_epiphany)
     db.session.add(lavawalkers_wisdom)
     db.session.add(royal_flora)
-    db.session.add(royal_masque)
     db.session.add(royal_plume)
     db.session.add(royal_pocket_watch)
     db.session.add(royal_silver_urn)
+    db.session.add(royal_masque)
 
 
     db.session.commit()

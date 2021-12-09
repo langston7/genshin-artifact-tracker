@@ -9,6 +9,8 @@ class Artifact(db.Model):
   set = db.Column(db.String, nullable=False)
   slot = db.Column(db.String, nullable=False)
 
+  user_artifacts = db.relationship("User_Artifact", back_populates="artifact")
+
   def to_dict(self):
     return {
       'id': self.id,

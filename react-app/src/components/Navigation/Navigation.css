@@ -18,5 +18,18 @@
   display:flex;
   flex-direction: column;
   position:fixed;
-  background-color: rgba(128, 128, 128, 0.342);
+  padding: 15px;
+  left: -140px;
+  top: 60px;
+  height: 92vh;
+  background-color: rgba(0, 0, 0, 0.342);
+  transition: 0.5s;
+}
+
+.sidebar-link{
+  padding: 10px;
+}
+
+.reveal-navbar{
+  transform: translate(140px);
 }

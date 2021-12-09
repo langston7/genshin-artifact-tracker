@@ -29,6 +29,8 @@ class User_Artifact(db.Model):
       'date': self.date,
       'name': self.artifact.name,
       'image' :self.artifact.imgsrc,
+      'slot': self.artifact.slot,
+      'set': self.artifact.set,
       'artifact_id': self.artifact_id,
       'primary_stat': self.primary_stat,
       'primary_stat_value': self.primary_stat_value,

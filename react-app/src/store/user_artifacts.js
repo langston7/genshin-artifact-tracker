@@ -27,7 +27,6 @@ export const getOneUsersArtifacts = (user_id) => async dispatch => {
   dispatch(get_user_artifacts(data.user_artifacts));
 }
 
-
 export const deleteUserArtifact = (user_artifact_id) => async dispatch => {
   const response = await fetch(`/api/user_artifacts/${user_artifact_id}`, {
     method: 'DELETE',

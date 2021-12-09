@@ -1,8 +1,7 @@
 import * as d3 from 'd3';
 import { useD3 } from "../../hooks/useD3";
-import './ArtifactChart.css'
 
-const ArtifactChart = ({data}) => {
+const ArtifactBySetpieceMainStatChart = ({data}) => {
   const ref = useD3(
     (svg) => {
       const height = 500;
@@ -94,4 +93,4 @@ const ArtifactChart = ({data}) => {
 }
 
 
-export default ArtifactChart
+export default ArtifactBySetpieceMainStatChart
