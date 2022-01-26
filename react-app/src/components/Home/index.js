@@ -13,7 +13,7 @@ const Home = () => {
   console.log(dataForSetpieceMainStatChart)
   const [currentSetpiece, setCurrentSetpiece] = useState('Sands of Eon');
 
-  //<ArtifactBySetpieceMainStatChart data={dataForSetpieceMainStatChart}/>
+  <ArtifactBySetpieceMainStatChart data={dataForSetpieceMainStatChart}/>
 
   useEffect(() => {
     dispatch(getOneUsersArtifacts(user?.id));
